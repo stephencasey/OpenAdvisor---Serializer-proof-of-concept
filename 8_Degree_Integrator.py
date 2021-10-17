@@ -1,4 +1,4 @@
-"""Degree requirement cross-reference tool, encoder, and serializer
+"""Degree requirement cross-reference tool, encoder, and table serializer
 
 This final script identifies requirements that are not represented as individual courses (such as general education
 requirements, ranges of course codes, sub-groups of courses, and elective groups specific to a degree) and integrates

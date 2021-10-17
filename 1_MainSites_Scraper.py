@@ -1,8 +1,8 @@
 """ Webscraper for generating a list of course description and degree requirement url's from university catalogs.
 
-This is the first of 8 scripts that scrape, organize, parse, and serialize a university's course descriptions and 
-degree requirements from their online catalog. This works for the majority of universities using a certain company 
-who develops their catalogs.
+This is the first of 8 scripts that scrape, organize, and parse a university's course descriptions and degree
+requirements from their online catalog. This works for the majority of universities using a certain company who develops
+their online catalogs.
 
 The purpose of this first script is to generate a list of all the possible url's that contain course descriptions and
 degree requirements.
