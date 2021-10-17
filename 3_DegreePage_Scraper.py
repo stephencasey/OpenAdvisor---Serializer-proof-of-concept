@@ -13,7 +13,7 @@ Note: Within the html of these catalogs each important element typically has a u
 have the class 'sc_plangrid', generic tables that contain courses are 'sc_courselist', footnotes containing superscript
 definitions are 'sc_footnotes'. Within the tables, credits have the table header 'Units', course codes are 'Code', etc.
 
-3rd party modules needed include Selenium, Pandas, BeautifulSoup4 and Unicodedata
+3rd party modules needed include Selenium, Pandas, and BeautifulSoup4.
 """
 
 from verticalprinter import v

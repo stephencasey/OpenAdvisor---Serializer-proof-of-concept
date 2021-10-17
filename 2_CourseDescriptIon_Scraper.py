@@ -6,8 +6,8 @@ This includes the course code, credits, title, requisites, registration informat
 The input is one of the dataframes generated in the first script of this series and the output is a dataframe containg
 all of the relevant html elements.
 
-3rd party modules needed include selenium (with the chrome driver installed), Pandas, tabulate, BeautifulSoup4,
-unicodedata, and html2text.
+3rd party modules needed include selenium (with the chrome driver installed), Pandas, tabulate, BeautifulSoup4, and
+html2text.
 """
 
 from selenium import webdriver

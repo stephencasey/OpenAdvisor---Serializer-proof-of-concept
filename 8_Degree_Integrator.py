@@ -56,7 +56,7 @@ electivelists are merely groups of courses), the degree name, track, degree type
 also a column called degreeflags which indicates inconsistencies within the degree (such as when the individual credits
 don't sum to the total or when the script interprets requirements that conflict).
 
-3rd party modules needed include Numpy, Pandas, Json, and TheFuzz
+3rd party modules needed include Numpy, Pandas, and TheFuzz
 """
 
 from verticalprinter import v

@@ -7,7 +7,7 @@ are associated with the correct tables (these broken fragments are surprisingly 
 The input is the dataframe from series 6 and the output is a dataframe containing the unorganized reference tables. The
 output must then be run through script 6 again before moving on to script 8 (not ideal but works for now).
 
-3rd party modules needed are Pandas, Selenium (with Chromedriver), BeautifulSoup4, TheFuzz, and Unicodedata.
+3rd party modules needed are Pandas, Selenium (with Chromedriver), BeautifulSoup4, and TheFuzz.
 """
 
 import pandas as pd

@@ -23,7 +23,7 @@ be completely ambiguous).
 Code can also include ranges of acceptable courses (e.g. _P_POLS300_??_to_499_) and minimum credit requirements
 (e.g. _P_D100_??_to_499_3_credits_)
 
-3rd party modules needed include Pandas, Numpy, Tabulate and Json
+3rd party modules needed include Pandas, Numpy, and Tabulate
 """
 
 import re

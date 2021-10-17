@@ -10,7 +10,7 @@ requirements, degree type, and concentration, and validated.
 This script takes the dataframes generated from scripts 3 & 5 and outputs a dataframe containing all the organized
 degree requirements in table form.
 
-Third party modules needed include Tabulate, Numpy, Pandas, and Json.
+Third party modules needed include Tabulate, Numpy, and Pandas.
 """
 
 import re
