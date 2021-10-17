@@ -28,4 +28,5 @@ _4_credits_{_SOCR455_ | _SOCR456_}} | {_3_credits__BSPM423_ | _4_credits__BSPM44
 _3_credits_{_BZ416_ | _SOCR416_}}}
 
 Link: https://catalog.colostate.edu/general-catalog/colleges/agricultural-sciences/agricultural-biology/agricultural-biology-major
+
 (Note: click on the requirements tab in the above link to compare)
