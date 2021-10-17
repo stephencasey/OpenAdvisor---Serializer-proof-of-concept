@@ -5,10 +5,6 @@ Series of 8 scripts that scrape, clean, organize, and encode online college cata
 
 Example outputs:
 
-Title: Major in Agricultural Biology
-
-Type: bachelor
-
 Degree Table Code: {_1_credits__AB120_<1><2> | _1_credits__AB130_<1><2> | _3_credits__AREC202_ | _4_credits__CHEM107_ |
 _1_credits__CHEM108_ | _3_credits__CO150_ | _8_credits_ _1_groups_{{_LIFE102_ | _LIFE103_} | {_BZ110_ | _BZ111_ | _BZ120_}} |
 _6_credits__table_9011_ | _3_credits__0000_ | {_1_credits__AB230_<1><2> | _2_credits__BSPM302_<1> | _4_credits__CHEM245_ |
