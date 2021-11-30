@@ -29,9 +29,7 @@ _3_credits__BSPM521_ | _4_credits__BZ333_ | _3_credits__MIP300_ | _4_credits_{{_
 _4_credits_{_SOCR455_ | _SOCR456_}} | {_3_credits__BSPM423_ | _4_credits__BSPM445_ | _5_credits_{_BSPM462_ | _BZ462_ | _MIP462_} |
 _3_credits_{_BZ416_ | _SOCR416_}}}
 
-**link:** https://catalog.colostate.edu/general-catalog/colleges/agricultural-sciences/agricultural-biology/agricultural-biology-major/#requirementstext
-
-#### (Note: click on above link to compare)
+**Link (click to compare):** https://catalog.colostate.edu/general-catalog/colleges/agricultural-sciences/agricultural-biology/agricultural-biology-major/#requirementstext
 
 On average, the code parses 89% of degree requirements with less than 3% error. The initial goal was to build this proof-of-concept for the largest of the catalog management services (CourseLeaf) and apply this to a single state (Colorado) to evaluate the results and gauge scalability for other states and platforms. The program has been tested on 6 out of the 8 schools in Colorado that use CourseLeaf, including the two largest universities in the state, representing 55,000 individual degree requirements and 25,000 courses. 
 
