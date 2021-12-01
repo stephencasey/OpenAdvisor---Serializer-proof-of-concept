@@ -11,7 +11,7 @@ The first step towards building this app is standardizing college degree and cou
 The normalized degree requirements are represented as an easy-to-read serialized code that represents all of the individual requirements and their relations. Below is an example:
 
 {% raw %}
-**Degree table code:** {_1_credits__AB120_<1><2> | _1_credits__AB130_<1><2> | _3_credits__AREC202_ | _4_credits__CHEM107_ |
+**Degree table code:** {_1_credits__AB120_<1><2> \| _1_credits__AB130_<1><2> \| _3_credits__AREC202_ \| _4_credits__CHEM107_ \|
 _1_credits__CHEM108_ | _3_credits__CO150_ | _8_credits_ _1_groups_{{_LIFE102_ | _LIFE103_} | {_BZ110_ | _BZ111_ | _BZ120_}} |
 _6_credits__table_9011_ | _3_credits__0000_ | {_1_credits__AB230_<1><2> | _2_credits__BSPM302_<1> | _4_credits__CHEM245_ |
 _1_credits__CHEM246_ | _4_credits__MATH155_ | _3_credits__SPCM200_ | _1-2_credits_ _1_courses_{_BSPM303A_<1> | _BSPM303B_<1> |
