@@ -44,6 +44,6 @@ Jupyter notebooks devoted to each section's methods, individual strategies, and 
 3.	Integration and Encoding
 
 ## Usage
-The scripts can be run sequentially using either the bash script, OA_BashDriver.sh, or the python script, OA_PythonDriver.py. The core project (all the scripts excluding script 5) can also be run using the three Jupyter notebooks included in the main directory, or viewed as HTML in the links directly above. 
+The scripts can be run using either the bash script, OA_BashDriver.sh, or the python script, OA_PythonDriver.py. The core project (all the scripts excluding script 5) can also be run using the three Jupyter notebooks included in the main directory, or viewed as HTML in the links directly above. 
 
 
