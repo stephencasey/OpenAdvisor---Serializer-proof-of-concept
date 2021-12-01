@@ -23,8 +23,8 @@ _5_credits__0000_} | {_3_credits__AB310_<1> | _3_credits__AB430_<1> | _3_credits
 _9_credits__table_0001_<1> | _10-11_credits__0000_<3>}}
 {% endraw %}
 
-**Elective table code:** {% raw %}_1_courses_per_group_ _12_credits_{{_4_credits__BC351_ | _3_credits__BZ223_ | _4_credits__BZ331_ |
-_4_credits__BZ338_ | _3_credits__BZ440_ | _4_credits__BZ450_ | _4_credits__HORT221_ | _4_credits__HORT231_ | _4_credits__HORT232_
+**Elective table code:** {% raw %}_1_courses_per_group_ _12_credits_{{_4_credits__BC351_ \| _3_credits__BZ223_ \| _4_credits__BZ331_ \|
+_4_credits__BZ338_ \| _3_credits__BZ440_ \| _4_credits__BZ450_ | _4_credits__HORT221_ | _4_credits__HORT231_ | _4_credits__HORT232_
 | _4_credits__HORT260_ | _0047_ | _0053_ | _3_credits_{_SOCR460_ | _HORT460_}} | {_4_credits__BSPM365_ | _3_credits__BSPM450_ |
 _3_credits__BSPM521_ | _4_credits__BZ333_ | _3_credits__MIP300_ | _4_credits_{{_MIP432_ | _ESS432_} | {_MIP433_ | _ESS433_}} |
 _4_credits_{_SOCR455_ | _SOCR456_}} | {_3_credits__BSPM423_ | _4_credits__BSPM445_ | _5_credits_{_BSPM462_ | _BZ462_ | _MIP462_} |
