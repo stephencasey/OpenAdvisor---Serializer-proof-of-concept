@@ -44,5 +44,5 @@ The project is divided in three sections, and each section has a Jupyter noteboo
 
 ## Usage
 The scripts can be run sequentially using either the bash script, OA_BashDriver.sh, or the python script, OA_PythonDriver.py. The core project (all the scripts excluding script 5) can also be run using the three Jupyter notebooks included in the main directory, or viewed as HTML in the links directly above. 
-Simply choose which school to run the program on when prompted and follow the prompts.
+
 
