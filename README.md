@@ -37,7 +37,7 @@ The primary focus in the development of this project was to have the highest deg
 
 The long-term goal is to have an app that can provide cheaper course alternatives for the majority of those present in a degree. Even if only 50% of the possible alternatives are identified, this can still represent thousands of dollars of savings. Therefore, the goal is to eventually have an app that can identify greater than 70% of transferrable options, with Type-1 error below 5%.
 
-## Explore the code
+## Explore the code & results
 The project is divided in three sections, and each section has a Jupyter notebook devoted to their methods, individual strategies, and code:
 1.	Web-scraping and Data Collection
 2.	Normalization and Transformation
