@@ -1,5 +1,4 @@
 # OpenAdvisor
-Proof-of-concept for a college catalog encoder
 
 Series of scripts that scrape, clean, organize, and encode online college catalogs.
 
