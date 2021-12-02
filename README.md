@@ -39,9 +39,9 @@ The long-term goal is to have an app that can provide cheaper course alternative
 
 ## Explore the code & results
 Jupyter notebooks devoted to each section's methods, individual strategies, and code are listed below:
-1.	Web-scraping and Data Collection
-2.	Normalization and Transformation
-3.	Integration and Encoding
+1.	[Web-scraping and Data Collection](http://stephentcasey.com/oa_part1.html)
+2.	[Normalization and Transformation](http://stephentcasey.com/oa_part2.html)
+3.	[Integration and Encoding](http://stephentcasey.com/oa_part3.html)
 
 ## Usage
 The scripts can be run using either the bash script, OA_BashDriver.sh, or the python script, OA_PythonDriver.py. The core project (all the scripts excluding script 5) can also be run using the three Jupyter notebooks included in the main directory, or viewed as HTML in the links directly above. 
