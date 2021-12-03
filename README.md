@@ -40,7 +40,7 @@ The long-term goal is to have an app that can provide cheaper course alternative
 ## Explore the code & results
 Jupyter notebooks devoted to each section's methods, individual strategies, and code are listed below:
 1.	[Web-scraping and Data Collection](http://stephentcasey.com/oa_part1.html)
-2.	[Normalization and Transformation](http://stephentcasey.com/oa_part2.html)
+2.	[Data Organizing and Parsing](http://stephentcasey.com/oa_part2.html)
 3.	[Integration and Encoding](http://stephentcasey.com/oa_part3.html)
 
 ## Usage
