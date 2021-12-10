@@ -1,0 +1,12 @@
+import importlib
+import OA_1_MainSites_Scraper
+import OA_2_CourseDescriptIon_Scraper
+import OA_3_DegreePage_Scraper
+import OA_4_CourseDescription_Organizer
+import OA_5_CourseDescription_Parser
+import OA_6_Degree_Organizer
+import OA_7_Geneds
+importlib.reload(OA_6_Degree_Organizer)
+import OA_8_Degree_Integrator
+
+
