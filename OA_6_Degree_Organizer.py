@@ -16,12 +16,10 @@ Third party modules needed include Tabulate, Numpy, and Pandas.
 import re
 import numpy as np
 from listtopattern import listtopattern
-from verticalprinter import v
 import pandas as pd
 import json
 from req_encode import req_encode
 from req_encode import groupwords
-from random import sample
 import sys
 import warnings
 warnings.filterwarnings("ignore", 'This pattern has match groups')

@@ -19,7 +19,6 @@ from thefuzz import process
 from thefuzz import fuzz
 import re
 import unicodedata
-from verticalprinter import v
 
 tablerowhtml_re = re.compile(r'<tr.+?</tr>', flags=re.DOTALL)
 tablerowclass_pattern = '(?:class=")([^ "]*)'

@@ -14,7 +14,6 @@ to up to 5 seconds depending on your internet connection speed.
 
 After running this script, run script 2.
 
-3rd party modules needed are Selenium (with the chrome webdriver installed), Pandas, and tabulate.
 """
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -24,7 +23,6 @@ import pandas as pd
 import unicodedata
 import json
 from tabulate import tabulate
-from verticalprinter import v
 
 # Retrieve URLs
 mainurlsdf = pd.read_excel('MainURLs.xlsx')

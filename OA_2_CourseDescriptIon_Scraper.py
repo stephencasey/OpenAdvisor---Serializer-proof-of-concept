@@ -18,7 +18,6 @@ from tabulate import tabulate
 from bs4 import BeautifulSoup as bs
 import unicodedata
 import html2text
-from verticalprinter import v
 h2t = html2text.HTML2Text()
 h2t.ignore_links = True
 h2t.ignore_emphasis = True

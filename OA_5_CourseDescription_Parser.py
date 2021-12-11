@@ -33,8 +33,6 @@ import pandas as pd
 import numpy as np
 from listtopattern import listtopattern
 from listtopattern import listtononcapture
-from random import sample
-from verticalprinter import v
 from tabulate import tabulate
 import json
 import warnings
