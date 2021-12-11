@@ -56,7 +56,8 @@ electivelists are merely groups of courses), the degree name, track, degree type
 also a column called degreeflags which indicates inconsistencies within the degree (such as when the individual credits
 don't sum to the total or when the script interprets requirements that conflict).
 
-3rd party modules needed include Numpy, Pandas, and TheFuzz
+The output dataframes are saved to a SQL database using SQLAlchemy. The path to your db config file should be specified
+below.
 """
 
 from verticalprinter import v
@@ -74,6 +75,9 @@ import sqlalchemy
 desired_width = 320
 pd.set_option('display.width', desired_width)
 pd.set_option('display.max_columns', 10)
+
+# Path to SQL database config file (update to match your own path)
+config_path = "C:\config_files\settings.json"
 
 df = pd.read_pickle('actualdegreesorganized.pkl')           # Output from first run of script 6
 coursedf = pd.read_pickle('courses.pkl')                    # Output from script 5
@@ -345,7 +349,7 @@ df.to_pickle('degreesserialized.pkl')
 gdf.to_pickle('groupsserialized.pkl')
 
 # Push to PostgreSQL Amazon RDB
-with open("C:\config_files\settings.json") as infile:
+with open(config_path) as infile:
     sql_config = json.load(infile)
 connection = sqlalchemy.create_engine(sql_config)
 

@@ -6,12 +6,12 @@ This includes the course code, credits, title, requisites, registration informat
 The input is one of the dataframes generated in the first script of this series and the output is a dataframe containg
 all of the relevant html elements.
 
-3rd party modules needed include selenium (with the chrome driver installed), Pandas, tabulate, BeautifulSoup4, and
-html2text.
+Chrome browser is required as a dependency.
 """
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import pandas as pd
 from tabulate import tabulate
@@ -28,7 +28,7 @@ h2t.body_width = 0
 sitesdf = pd.read_pickle('coursedescriptionsites.pkl')
 courseblocks_df = pd.DataFrame()
 
-s = Service('C:/PythonExtraPath/chromedriver.exe')
+s = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=s)
 
 # Loop through each course description page (each page contains an entire department's courses)

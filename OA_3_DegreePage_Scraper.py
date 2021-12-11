@@ -13,13 +13,14 @@ Note: Within the html of these catalogs each important element typically has a u
 have the class 'sc_plangrid', generic tables that contain courses are 'sc_courselist', footnotes containing superscript
 definitions are 'sc_footnotes'. Within the tables, credits have the table header 'Units', course codes are 'Code', etc.
 
-3rd party modules needed include Selenium, Pandas, and BeautifulSoup4.
+Chrome browser is required as a dependency.
 """
 
 from verticalprinter import v
 from random import sample
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import re
 import pandas as pd
@@ -35,7 +36,7 @@ sscript_pattern = r'(?<=_SUPERSCRIPT_).+?(?=_)'     # sscript is abbreviation fo
 tablerowhtml_re = re.compile(r'<tr.+?</tr>', flags=re.DOTALL)
 tablerowclass_pattern = '(?:class=")([^ "]*)'
 
-s = Service('C:/PythonExtraPath/chromedriver.exe')
+s = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=s)
 htmldf = pd.DataFrame()
 for pagei, page in urldf.iterrows():

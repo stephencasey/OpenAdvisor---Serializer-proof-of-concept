@@ -7,12 +7,13 @@ are associated with the correct tables (these broken fragments are surprisingly 
 The input is the dataframe from series 6 and the output is a dataframe containing the unorganized reference tables. The
 output must then be run through script 6 again before moving on to script 8 (not ideal but works for now).
 
-3rd party modules needed are Pandas, Selenium (with Chromedriver), BeautifulSoup4, and TheFuzz.
+Chrome browser is required as a dependency.
 """
 
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 from bs4 import BeautifulSoup as bs
 from thefuzz import process
@@ -36,7 +37,7 @@ degreedf.loc[startswithhash, 'links'] = degreedf.apply(lambda x: [x.pageurl + '/
 # List of all unique links
 alllinks = list(set([x for sublist in degreedf.links for x in sublist]))
 
-s = Service('C:/PythonExtraPath/chromedriver.exe')
+s = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=s)
 siblings = []
 linklist = []

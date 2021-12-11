@@ -14,10 +14,12 @@ to up to 5 seconds depending on your internet connection speed.
 
 After running this script, run script 2.
 
+Chrome browser is required as a dependency.
 """
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import pandas as pd
 import unicodedata
@@ -140,7 +142,7 @@ def get_sibling_urls(urls, pickle_name):
     linksdf.to_pickle(pickle_name)
 
 
-s = Service('C:/PythonExtraPath/chromedriver.exe')
+s = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=s)
 
 get_sibling_urls(coursedescription_urls, 'coursedescriptionsites.pkl')
